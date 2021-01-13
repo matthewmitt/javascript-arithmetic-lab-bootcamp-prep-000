@@ -126,7 +126,7 @@ Luckily, JavaScript gives us tools to turn these strings into proper numbers (th
 The first such tool is the function `parseInt()`, which accepts two arguments: the value to parse and the base of the value being parsed. _Usually_ you will want to work with base 10, so a typical call to `parseInt()` looks like
 
 ``` javascript
-parseInt('2', 10) // 2
+parseInt('2', 10) //
 ```
 
 What happens if we pass a representation of a non-integer to `parseInt()`? Let's try it:
